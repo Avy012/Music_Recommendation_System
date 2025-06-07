@@ -3,11 +3,11 @@
 - **`data_processing.ipynb`**
   - **설명:** 원본 음악 데이터 및 사용자 데이터를 전처리하고, 분석 및 모델 학습을 위한 형식으로 가공합니다.
   - **사용 데이터셋:** `user_track.csv`, `eng_user_lyrics.csv`
+  - **user_track.csv 다운로드 링크(Google Drive):** https://drive.google.com/file/d/1kJA_Vxv98UZTN-WuhrNymTl7Kz5cr6Vr/view?usp=drive_link
 
 - **`BERT_embedding.ipynb`**
   - **설명:** 노래 가사에 대해 BERT를 이용해 문장 임베딩을 생성하는 코드입니다. 추천 모델의 입력으로 사용될 벡터를 생성합니다.
   - **사용 데이터셋:** `balanced_lyrics.csv`
-  - **데이터 링크(Google Drive):** https://drive.google.com/file/d/1kJA_Vxv98UZTN-WuhrNymTl7Kz5cr6Vr/view?usp=drive_link
 
 - **`data_merge.ipynb`**
   - **설명:** BERT 임베딩 결과와 전처리된 사용자-아이템 데이터를 병합하여 학습에 사용할 최종 데이터를 구성합니다.
