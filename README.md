@@ -21,6 +21,11 @@
   - **설명:** BERT 임베딩을 반영한 NeuMF 추천 모델 구현 코드입니다. 콘텐츠 기반 정보와 협업 필터링을 결합하여 추천 성능을 향상시킵니다.
   - **사용 데이터셋:** `emb_all_.csv`
 
+## 📦 라이브러리 설치 명령어
+```bash
+pip install pandas==1.5.3 numpy==1.24.4 tqdm==4.65.0 swifter==1.3.5 nltk==3.8.1 langdetect==1.0.9 scikit-learn==1.2.2 tensorflow==2.11.0 keras==2.11.0 torch==1.13.1 transformers==4.30.2 sentence-transformers==2.2.2
+```
+
 ## 💻 실험 환경 정보
 
 - OS: Windows 11
@@ -44,8 +49,4 @@
   ```python
   import nltk
   nltk.download('words')
-
-## 📦 라이브러리 설치 명령어
-```bash
-pip install pandas==1.5.3 numpy==1.24.4 tqdm==4.65.0 swifter==1.3.5 nltk==3.8.1 langdetect==1.0.9 scikit-learn==1.2.2 tensorflow==2.11.0 keras==2.11.0 torch==1.13.1 transformers==4.30.2 sentence-transformers==2.2.2
-```
+  ```
