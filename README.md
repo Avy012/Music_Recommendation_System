@@ -34,8 +34,5 @@
 
 ## 📦 라이브러리 설치 명령어
 ```bash
-pip install pandas==1.5.3 numpy==1.24.4 tqdm==4.65.0 swifter==1.3.5 \
-nltk==3.8.1 langdetect==1.0.9 scikit-learn==1.2.2 \
-tensorflow==2.11.0 keras==2.11.0 torch==1.13.1 \
-transformers==4.30.2 sentence-transformers==2.2.2
+pip install pandas==1.5.3 numpy==1.24.4 tqdm==4.65.0 swifter==1.3.5 nltk==3.8.1 langdetect==1.0.9 scikit-learn==1.2.2 tensorflow==2.11.0 keras==2.11.0 torch==1.13.1 transformers==4.30.2 sentence-transformers==2.2.2
 ```
